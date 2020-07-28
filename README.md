@@ -8,7 +8,9 @@ In this working document, we try to identify areas where EOSC-Nordic and the Nor
 
 ### EOSC-Life tool roadmap
 
+
 <img src="https://github.com/eosc-life/tools-collaboratory-roadmap/raw/master/images/EOSC-Life_T2.1.png" />
+*Reference*: [https://github.com/eosc-life/tools-collaboratory-roadmap](https://github.com/eosc-life/tools-collaboratory-roadmap)
 
 ### EOSC-Nordic tool roadmap for the Climate community
 
