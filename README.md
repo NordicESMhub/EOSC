@@ -4,6 +4,11 @@ EOSC Nordic activities and synergies with other EOSC projects such as EOSC-Life 
 
 In this working document, we try to identify areas where EOSC-Nordic and the Nordic Climate Community could collaborate with other EOSC related projects to fotser and advance take-up of of the European Open Science Cloud.
 
+## EOSC-Nordic Climate Science demonstrator
+
+For reference, we add a [link to the Climate Science use cases](https://nordicesmhub.github.io/eosc-nordic-climate-demonstrator/) defined within EOSC-Nordic Climate Science demonstrator.
+
+
 ## Roadmaps
 
 ### EOSC-Life tool roadmap
