@@ -83,6 +83,10 @@ A [workflow Hub Github organization](https://github.com/workflowhub-eu/) has bee
 Any workflows related to the Climate community and generated within Galaxy (either with interactive JupyterLab or with Galaxy tools) can be deposited to the [Climate Team](https://workflowhub.eu/projects/18).
 
 
+## BioComputeObj
+
+- [BioCompute Objects](https://www.biocomputeobject.org/)
+
 ## Possible collaboration
 
 - [galaxy2cwl](https://github.com/workflowhub-eu/galaxy2cwl): contribute to enhancement of **galaxy2cwl**.
