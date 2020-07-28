@@ -1,4 +1,4 @@
-# Nordic Climate Community and EOSC
+# EOSC-Nordic Climate Community, EOSC-Life and EOSC-Pillar
 
 [EOSC Nordic](https://www.eosc-nordic.eu) activities and synergies with other EOSC projects such as [EOSC-Life](https://www.eosc-life.eu/) and [EOSC-Pillar](https://www.eosc-pillar.eu).
 
