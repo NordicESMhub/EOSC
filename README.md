@@ -33,3 +33,29 @@ Rather than reinventing the wheel, EOSC-Nordic chose to base its roadmap on the 
 ## Registries
 
 
+## Training
+
+### EOSC-Life Training Open Call
+
+An application was submitted to [EOSC-Life Training Open Call](https://www.eosc-life.eu/services/open-call-training/) and accepted.
+
+#### Development of CLM-FATES training course
+
+The main objective of the course is to learn how to compose and execute repeatable and reproducible modelling workflow with FATES (Functional Assembled Terrestrial Ecosystem Simulator). FATES is a numerical terrestrial ecosystem model for use in Earth System Models (ESM) that simulates and predicts growth, death, and regeneration of plants and subsequent tree size distributions. The simulation is done by allowing plants with different traits to compete for light, water, and nutrients, within an environment that tracks both natural and anthropogenic disturbance and recovery. FATES introduces ecosystem demography and dynamic vegetation into the structure of the land surface components of ESMs, allowing for full coupling to global atmosphere, ocean, and sea-ice processes. FATES is currently coupled to several Earth System Models, including CESM (Community Earth System Model), CTSM (Community Terrestrial Systems Model) and E3SM (Energy Exascale Earth System Model).
+
+The learning objectives include:
+
+- Understanding ecological, biogeochemical, biogeophysical, and hydrologic theory underpinning the CTSM.
+- Running CLM-FATES in Galaxy for single-point locations where in-situ measurements are available.
+- Analyzing CLM-FATES output and comparing it with observations.
+- Sharing data (results from the simulations, in-situ data) using FAIR principles.
+- Composing, executing and publishing the corresponding Galaxy workflow. 
+
+
+During [BCC2020 CollaborationFest](https://bcc2020.github.io/cofest/) we have started to draft a Galaxy tutorial:
+- [github repository with fates tutorial](https://github.com/NordicESMhub/galaxy-training-material/tree/fates/topics/climate/tutorials/fates)
+- [Corresponding Pull Request in GTN](https://github.com/galaxyproject/training-material/pull/1993)
+
+More information will come as the project starts.
+
+
