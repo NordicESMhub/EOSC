@@ -59,11 +59,13 @@ The work planned within EOSC-Nordic framework and [WP5: Open Research data and s
 
 # Tools & packaging
 
-So far we have use [bioconda](http://bioconda.github.io/) so that we would automatically get the corresponding docker container. 
+So far we have use [bioconda](http://bioconda.github.io/) so that we would automatically get the corresponding docker container (see [https://github.com/BioContainers](https://github.com/BioContainers):
+
 
 This means that our tools appear in [biocontainers.pro](https://biocontainers.pro/#/). [CESM](http://www.cesm.ucar.edu/) is a concrete example:
 - [cesm in bioconda](https://bioconda.github.io/recipes/cesm/README.html)
 - [cesm in biocontainers.pro](https://biocontainers.pro/#/tools/cesm)
+
 
 ## Possible collaboration
 
@@ -78,6 +80,13 @@ The collabroation is already effective. A few questions:
 
 A [workflow Hub Github organization](https://github.com/workflowhub-eu/) has been created.
 
+[Workflow hub](https://workflowhub.eu/) is based on [SEEK](https://seek4science.org/),a web-based cataloguing and commons platform, for sharing heterogeneous scientific research datasets, models or simulations, processes and research outcomes. It preserves associations between them, along with information about the people and organisations.
+
+- [ro-crate](http://www.researchobject.org/ro-crate/) is a community effort to establish a lightweight approach to packaging research data with their metadata. It is based on schema.org annotations in JSON-LD, and aims to make best-practice in formal metadata description accessible and practical for use in a wider variety of situations, from an individual researcher working with a folder of data, to large data-intensive computational research environments.
+
+ro-crate objects can be downloaded from workflow hub.
+
+
 ## Workflow Hub Climate Team
 
 Any workflows related to the Climate community and generated within Galaxy (either with interactive JupyterLab or with Galaxy tools) can be deposited to the [Climate Team](https://workflowhub.eu/projects/18).
@@ -85,7 +94,9 @@ Any workflows related to the Climate community and generated within Galaxy (eith
 
 ## BioComputeObj
 
-- [BioCompute Objects](https://www.biocomputeobject.org/)
+- [BioCompute Objects](https://www.biocomputeobject.org/): this project is very similar to workflow hub and [ro-crate](http://www.researchobject.org/ro-crate/). 
+A R package [biocompute](https://cran.r-project.org/web/packages/biocompute/index.html) has been developed and allows the creation and manupulation of Bio Compute Objects. 
+
 
 ## Possible collaboration
 
@@ -93,6 +104,8 @@ Any workflows related to the Climate community and generated within Galaxy (eith
 - As the climate community also makes use of [cylc](https://cylc.github.io/), we could also contribute to workflow Hub by developing and maintaining a tool to convert to [CWL](https://www.commonwl.org/) e.g. **cylc2cwl**.
 
 This work could be done by the [NICEST2](https://neic.no/nicest2/) (Nordic Collaboration on e-Infrastructures for Earth System Modeling) and [WP4: ESM workflows to efficiently run NorESM and EC-Earth on euroHPC](https://nordicesmhub.github.io/nicest2/2020/05/04/plan.html#wp4-esm-workflows-to-efficiently-run-noresm-and-ec-earth-on-eurohpc). 
+
+- [ipython2cwl](https://ipython2cwl.readthedocs.io/en/latest/): is it any useful for converting our Jupyter notebooks into CWL? 
 
 # Infrastructure
 
@@ -104,7 +117,25 @@ EOSC-Nordic investigates (at a policy level) on how to solve issues related to d
 
 ## bio.tools 
 
-The Climate Community could reuse what is done for [bio.tools](https://bio.tools/).
+[biotoolsregistry (bio.tools)](https://bio.tools/) is the Web application of the ELIXIR Tools & Data Services Registry. It allows the curation and discovery of bioinformatics resources including databases, tools, services and so on, available under a variety of interfaces.
+
+The main objective of such registry is to help researchers to find existing tools thus avoid re-inventing the wheel. It is a community based registry which means that anyone can add new tools (you first need to register).
+
+bio.tools depends upon a resource description model: [biotoolsSchema](https://github.com/bio-tools/biotoolsSchema). This description model is in XML and can be found [here](https://github.com/bio-tools/biotoolsSchema/blob/master/stable/biotools.xsd) or in [json format](https://github.com/bio-tools/biotoolsSchema/blob/master/jsonschema/biotoolsj.json).
+
+The [EDAM](http://edamontology.org/page) ontology is used in biotoolsSchema for operations, types of data, data identifiers, data formats, and topics.
+
+- Tools can be added either manually or automatically, harvesting scientific publications (mostly from [PubMed.gov](https://pubmed.ncbi.nlm.nih.gov/).
+
+- The Climate Community could reuse what is done for [bio.tools](https://bio.tools/). The EDAM ontology would need to be extended.
+
+### EDAM ontology
+
+EOSC-Life makes use of the [EDAM](http://edamontology.org/page) ontology for bioinformatics operations, types of data, data identifiers, data formats, and topics.
+
+EDAM ontology is used by [bio.tools](https://bio.tools/).
+
+The EDAM ontology also covers the needs of the ecology community.
 
 ## biocontainers
 
@@ -112,25 +143,20 @@ As mentioned above, tools we have added to bioconda are also listed in [bioconta
 
 ## Possible collaboration
 
-### Science.tools & scicontainers.pro
+### geo.tools & geocontainers.pro
 
 With other communities interested in having registries for their tools and containers, the main question is whether we should "duplicate" or "generalize" what has been done for the Life Science community.
 
-- should we have a more generic **science.tools** and **scicontainters.pro** orshould we define (for each community) specific registries?
+- should we have a more generic **science.tools** and **scicontainters.pro** or should we define (for each community) specific registries?
+- it is probably useful to start with community web portals for registering tools (such as geotools for the Geosciences community) and later have a more generic science.tools (based on community tool registries).
 
-
-# Ontologies
-
-EOSC-Life makes use of the [EDAM](http://edamontology.org/page) ontology for bioinformatics operations, types of data, data identifiers, data formats, and topics.
-
-The EDAM ontology also covers the needs of the ecology community.
-
-## Possible collaboration
+### EDAM ontology
 
 - Extend [EDAM](http://edamontology.org/page) ontology for Climate Science.
 
 This work could be done within EOSC-Nordic WP5 and [NICEST2 WP3: FAIR climate data for NorESM and EC-Earth](https://nordicesmhub.github.io/nicest2/2020/05/04/plan.html#wp3-fair-climate-data-for-noresm-and-ec-earth). 
 This would be beneficial for Climate tool registries, container registries and Galaxy tools.
+
 
 # Training
 
