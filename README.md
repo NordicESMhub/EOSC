@@ -1,4 +1,8 @@
-# EOSC-Nordic Climate Science Workbench roadmap.
+# EOSC-Nordic Climate Science Workbench roadmap
+
+**Video presented at [BCC2020](https://bcc2020.github.io/) online conference**
+
+**Authors:**  Fouilloux, Anne Claire; Hasan, Adil; Lukkarinen, Ari and Struthers, Hamish
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/437706026" width="640" height="463" frameborder="0" allowfullscreen></iframe>
 
