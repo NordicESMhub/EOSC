@@ -1,3 +1,7 @@
+# EOSC-Nordic Climate Science Workbench roadmap.
+
+<iframe title="vimeo-player" src="https://player.vimeo.com/video/437706026" width="640" height="463" frameborder="0" allowfullscreen></iframe>
+
 # EOSC-Nordic Climate Community, EOSC-Life and EOSC-Pillar
 
 [EOSC Nordic](https://www.eosc-nordic.eu) activities and synergies with other EOSC projects such as [EOSC-Life](https://www.eosc-life.eu/) and [EOSC-Pillar](https://www.eosc-pillar.eu).
