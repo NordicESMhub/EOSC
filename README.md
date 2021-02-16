@@ -2,7 +2,9 @@
 
 **Video presented at [BCC2020](https://bcc2020.github.io/) online conference**
 
-**Authors:**  Fouilloux, Anne Claire; Hasan, Adil; Lukkarinen, Ari and Struthers, Hamish
+[![DOI](https://zenodo.org/badge/283116460.svg)](https://zenodo.org/badge/latestdoi/283116460)
+
+**Authors:**  [Fouilloux, Anne Claire](https://github.com/annefou); Hasan, Adil; Lukkarinen, Ari and Struthers, Hamish
 
 <iframe title="vimeo-player" src="https://player.vimeo.com/video/437706026" width="640" height="463" frameborder="0" allowfullscreen></iframe>
 
